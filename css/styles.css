@@ -1,0 +1,187 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(29, 32, 39);
+    padding: 1em;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 5%;
+}
+
+.section-1 {
+    text-align: center;
+}
+
+input[type='text']{
+    text-align:right;
+    }
+    
+    input[type='text']:focus{
+    text-align:left;
+    background-color: rgb(158, 187, 184);
+    border: 2px solid black;
+    }
+
+
+input[type='email']{
+    text-align:right;
+    }
+    
+    input[type='email']:focus{
+    text-align:left;
+    background-color: rgb(158, 187, 184);
+    border: 2px solid black;
+    }
+
+input[type='tel']{
+        text-align:right;
+        }
+        
+    input[type='tel']:focus{
+        text-align:left;
+        background-color: rgb(158, 187, 184);
+        border: 2px solid black;
+        }
+
+
+
+.top-hr {
+    background-color: rgb(29, 32, 39);
+    padding: 2px;
+    margin-bottom: 1.5px;
+
+}
+
+.second-hr {
+    background-color: rgb(29, 32, 39);
+    padding: 0.5px;
+    margin-top: 0;
+}
+
+.top-form label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.top-form input {
+    width: 90%;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-right: auto;
+    background-color: rgba(212, 227, 228, 0.959);
+}
+
+.top-form select {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(212, 227, 228, 0.959);
+}
+
+.postal-1 {
+    max-width: 50%;
+}
+
+.bottom-hr {
+    background-color: rgb(29, 32, 39);
+    padding: 1px;
+    margin-top: 1.5rem;
+}
+
+.bottom-form {
+    line-height: 2em;
+}
+
+.bottom-form input {
+    display: inline-block;
+}
+
+.bottom-form label {
+    display: inline-block;
+}
+
+
+
+textarea {
+    width: 100%;
+    background-color: rgba(212, 227, 228, 0.959);
+    border: none;
+    border-radius: 5px;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+textarea:focus {
+    border: 2px solid black;
+    background-color: rgb(158, 187, 184);
+}
+
+button {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 100%;
+    padding: 1.1em;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(38, 203, 224);
+    border: none;
+    border-radius: 5px;
+}
+
+.copy {
+    text-align: center;
+}
+
+
+/* ================================================== */
+                /*  MEDIA QUERY  */
+/* ================================================== */
+
+
+@media screen and (min-width: 768px) {
+
+    .top-form label {
+        display: inline-flex;
+        width: 40%;
+    }
+
+    .container {
+        width: 55%;
+        margin: auto;
+        padding-top: 50px;
+        
+    }
+
+    .input-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    } 
+    
+    .top-form input, .top-form select {
+        width: 70%;
+        margin-bottom: 1em;
+        margin-top: .5em;
+        
+}
+
+#postal {
+    width: 40%;
+    margin-right: -20%;
+}
+}
