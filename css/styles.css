@@ -103,6 +103,7 @@ input[type='tel']{
 
 .bottom-form {
     line-height: 2em;
+    border-style: none;
 }
 
 .bottom-form input {
@@ -133,7 +134,7 @@ button {
     display: block;
     font-size: 1.5em;
     font-weight: 300;
-    width: 100%;
+    width: 93%;
     padding: 1.1em;
     margin: 0 auto;
     color: white;
@@ -184,4 +185,17 @@ button {
     width: 40%;
     margin-right: -20%;
 }
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: inline;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+.field-set {
+    border-style: none;
 }
